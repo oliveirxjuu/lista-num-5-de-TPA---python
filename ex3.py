@@ -7,7 +7,7 @@ total = 0
 while contador <= 10:
     contador += 1
     dataNasc = int(input("Digite o ano em que você nasceu: "))
-    deMaior = (dataNasc - 2021) *-1
+    deMaior = 2021 - dataNasc
     if deMaior >= 18:
         total += 1
 print ("{} São pessoas maiores de idade" .format (total))
